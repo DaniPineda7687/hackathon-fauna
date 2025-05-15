@@ -4,7 +4,7 @@ import { ReportDialog } from "./components/report-dialog";
 export default function Page() {
   return (
     <main>
-      <div className="relative">
+      <div className="relative h-[100dvh] w-full">
         <Map longitude={-73.6921033} latitude={3.9147878} zoom={12} />
         <ReportDialog />
       </div>

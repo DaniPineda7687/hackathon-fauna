@@ -24,7 +24,7 @@ export default function Map({ longitude = -74, latitude = 4, zoom = 10, style = 
   return (
     <div
       ref={mapContainer}
-      style={{ width: '100%', height: '100vh', borderRadius: '8px', overflow: 'hidden' }}
+      style={{ width: '100%', height: '100dvh', borderRadius: '8px', overflow: 'hidden' }}
     />
   )
 }
