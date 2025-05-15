@@ -19,7 +19,7 @@ export default function LocationMap(): JSX.Element {
     const map = new mapboxgl.Map({
       container,
       style: "mapbox://styles/mapbox/streets-v11",
-      center: [0, 0],
+      center: [-74.1139695, 4.5480881],
       zoom: 2,
     });
 
