@@ -39,7 +39,7 @@ export default function LocationMap(): JSX.Element {
   navigator.geolocation.getCurrentPosition(
     ({ coords }) => {
       console.log(coords)
-    
+        alert(coords)
     },
     (err) => {
       let msg = ''
